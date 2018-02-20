@@ -43,9 +43,29 @@ h1, h2, h3, h4, h5, h6, button {
 #tickets-action .callout {
     background-color: #537eb7;
     color: white;
+    margin-bottom: 0;
 }
 
 #tickets-action .callout button {
     color: white;
     border: 1px solid white;
+}
+
+#lineup-container, 
+#lineup-container .tabs, #lineup-container, 
+#lineup-container .tabs .tabs-title {
+    background-color: #9676af;
+    color: white;
+    padding: 1em;
+    border: 0;
+}
+
+#lineup-container .tabs .tabs-title a{
+    font-size: 18px;
+    color: #a7fffb;
+}
+
+#lineup-container .tabs .tabs-title a:hover{
+    color: white;
+    background-color: #9676af;
 }

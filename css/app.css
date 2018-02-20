@@ -1,5 +1,6 @@
 body {
     background-color: #ee3f54;
+    font-family: 'Bree Serif', serif;
 }
 
 h1, h2, h3, h4, h5, h6, button {
@@ -37,4 +38,14 @@ h1, h2, h3, h4, h5, h6, button {
 #submenu-container li a{
     background-color: #48a19d;  
     color: white;
+}
+
+#tickets-action .callout {
+    background-color: #537eb7;
+    color: white;
+}
+
+#tickets-action .callout button {
+    color: white;
+    border: 1px solid white;
 }
